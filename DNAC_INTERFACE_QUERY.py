@@ -12,9 +12,6 @@ from DNAC_DEVICE_COUNT import devices_list
 from GET_DNAC_TOKEN import headers
 from DNAC_CLI_SH_TRANCEIVER import *
 
-
-
-
 print("****** SCRIPT BEGINS ******")
 #Open the file where the output will be
 text_file = open('interfaces_up.txt', 'w')
