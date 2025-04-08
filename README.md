@@ -15,4 +15,4 @@ Needs the following import:
 * from requests.auth import HTTPBasicAuth --> used for the Authentication of the API
 * import xlsxwriter --> to export datas in an Excel file
 * from tabulate import tabulate --> to print the datas in a tab
-
+* import influxdb_client --> to push datas in influxdb
