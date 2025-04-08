@@ -1,5 +1,0 @@
-requests
-datetime
-urllib3
-tabulate
-xlsxwriter
