@@ -31,6 +31,20 @@ DNAC_INT_COUNT = '/dna/intent/api/v1/interface/network-device/{deviceId}/count'
 DNAC_ISE_STATUS = '/dna/intent/api/v1/ise-integration-status'
 # DNAC VERSION
 DNAC_VERSION = '/dna/intent/api/v1/dnac-release'
+# DNAC CSSM CONNECTION
+DNAC_CSSM_CONNECTION = '/dna/intent/api/v1/connectionModeSetting'
+# DNAC EoX
+DNAC_EOX = '/dna/intent/api/v1/eox-status/summary'
+# DNAC COMPLIANCE
+DNAC_COMPLIANCE = '/dna/intent/api/v1/compliance/detail'
+# DNAC NETWORK HEALTH GLOBAL
+DNAC_NETWORK_HEALTH = '/dna/intent/api/v1/network-health'
+# DNAC LICENSE SUMMARY
+DNAC_LICENSE_SUMMARY = '/dna/intent/api/v1/licenses/device/summary?order=asc&page_number=1&limit=500'
+# DNAC LICENSE STATUS
+DNAC_LICENSE_STATUS = '/dna/system/api/v1/license/status'
+# DNAC LICENSE USAGE
+DNAC_LICENSE_USAGE = '/dna/intent/api/v1/licenses/usage/smartAccount/{smart_account_id}/virtualAccount/{virtual_account_name}?device_type={device_type}'
 
 #FOLDER_NAME
 FOLDER_NAME = 'device_configs'
