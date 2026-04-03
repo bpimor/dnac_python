@@ -45,6 +45,16 @@ DNAC_LICENSE_SUMMARY = '/dna/intent/api/v1/licenses/device/summary?order=asc&pag
 DNAC_LICENSE_STATUS = '/dna/system/api/v1/license/status'
 # DNAC LICENSE USAGE
 DNAC_LICENSE_USAGE = '/dna/intent/api/v1/licenses/usage/smartAccount/{smart_account_id}/virtualAccount/{virtual_account_name}?device_type={device_type}'
+# DNAC ASSURANCE CLEINT DETAIL
+DNAC_CLIENT_ASSURANCE = '/dna/intent/api/v1/client-detail?macAddress={client_mac}'
+# DNAC CLIENT ENERGY
+DNAC_CLIENT_ENERGY = '/dna/data/api/v1/energy/clients'
+# DEVICE_SITE_UNASSIGNED
+DEVICE_SITE_UNASSIGNED = '/dna/intent/api/v1/networkDevices/notAssignedToSite'
+# SITE TOPOLOGY
+SITE_TOPOLOGY = '/dna/intent/api/v1/topology/site-topology'
+# ASSIGNED DEVICES WHICH ARE UNASSSIGNED TO A SITE
+ASSIGNED_DEVICES_UNASSIGNED = '/dna/intent/api/v1/assign-device-to-site/{siteId}/device'
 
 #FOLDER_NAME
 FOLDER_NAME = 'device_configs'
